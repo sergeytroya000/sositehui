@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<base href="http://store-aromat.kz/"/>
+	<title>Женские духи</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Женская парфюмерия" />
+	<meta name="keywords"    content="Женские духи" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link href="design/Flavor24_mobile/images/favicon.ico" rel="icon"          type="image/x-icon"/>
+	<link href="design/Flavor24_mobile/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+	<link rel="canonical" href="http://store-aromat.kz/catalog/kupit-zhenskie-duhi/paloma-picasso"/>	<link href="design/Flavor24_mobile/css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+	<script src="js/jquery/jquery.js"  type="text/javascript"></script>
+	<script src="design/Flavor24_mobile/js/bootstrap.min.js"></script>
+	<script src="design/Flavor24_mobile/js/scripts.js"></script>
+ <script src="design/Flavor24_mobile/js/jquery.countdown.js"></script>
+ <script src="design/Flavor24_mobile/js/script.js"></script>
+ 
+ <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+
+     
+   	<script>
+	$(function() {
+		$(".top_ul li.selected").parent("ul").show();
+		$(".top_ul > li").each(function() {
+		$(this).addClass("top_li");
+			if ($(this).hasClass("selected"))
+			{
+				$(this).next("ul").show();
+			}
+		});
+        $(".top_ul li a").click(function(){
+           if ($(this).parent().find('ul').length) {
+               $(this).parent().siblings().find("a.selected:visible").removeClass("selected");
+               $(this).closest('li').children("ul").slideToggle("slow");
+               $(this).parent().siblings().find("ul:visible").slideUp("slow");
+               $(this).toggleClass("selected");
+           return false;
+           }
+        });
+	});
+	</script>
+	
+ 
+ <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+        <link rel="stylesheet" href="design/Flavor24_mobile/css/styles.css" />
+        <link rel="stylesheet" href="design/Flavor24_mobile/css/jquery.countdown.css" />
+
+ 
+</head>
+<body>
+ 
+ <style>
+ .top-nav {
+ 	position:fixed;
+    z-index:999;
+    width:100%;
+    background:#000;
+    color:#fff;   
+    border:none;
+ }
+  
+  .top-nav .container{
+  	padding-left:10px;
+    padding-right:10px;
+  }
+  
+  .top-nav a{
+  	color:#fff;
+    text-transform:uppercase;
+  }
+  
+  .bodyPage .container {
+  	padding-top:50px;
+  }
+  
+  #cart_informer a:hover{
+  	color:#FFC800;
+    text-decoration: none;
+  }
+  
+  .headContacts {
+  	text-align:right;
+  }
+  
+  #logo span {
+  	color:#ffc800;
+    font-weight:900;
+    
+  }
+  
+  #logo {
+  	font-size:24px;
+    text-transform:uppercase;
+    font-family: Cinzel, sans-serif;
+    color:#000;
+    padding-top:30px;
+  }
+  
+  #logo:hover {
+  	text-decoration:none;
+  }
+  
+  .btn {
+  	background:#333;
+    border-color:#333;
+  }
+  
+  .btn:hover {
+  	background:#fff;
+    color:#333;
+     border-color:#333;
+  }
+  
+  .input_search {
+  	color:#333;
+  }
+  
+ </style>
+ 
+ <div class="navbar navbar-default top-nav" role="navigation">
+	<div class="container">
+     <button type="button" style="float:left;" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+		<div class="navbar-collapse collapse in" style="height: auto;width:70%;float:left;">
+			<ul class="nav navbar-nav">
+				             					<li class='active'>
+	   				<a href="catalog/kupit-zhenskie-duhi" data-category="397" style="margin-top:7px">Женские духи</a>
+					</li>
+             				             					<li class=''>
+	   				<a href="catalog/kupit-muzhskie-duhi" data-category="512" style="margin-top:7px">Мужские духи</a>
+					</li>
+             				             <li>     </li>
+             <li style="margin-left:20px;">До конца АКЦИИ</li>
+            <li style="margin-left:10px;" id="countdown2"></li>
+			</ul>
+         
+         
+         
+         
+		</div>
+     
+     <div id="cart_informer" style='min-width:240px;margin-top:7px;text-align:right;float:right;'><i class="i-basket"></i>
+<b>Корзина пуста</b><br />
+Выберите любой товар
+</div>
+	</div>
+	</div>
+ 
+<div class="bodyPage">
+ 
+<div class="container wrapper">
+
+	<header>
+		
+		<div class="row">
+			<div class="col-xs-24 col-sm-8 col-md-6 logo">
+             <a id="logo" href="/">STORE-<span>AROMAT</span></a>
+			</div>
+
+			
+
+			
+
+			<form class="col-xs-24 col-md-9 form-inline searchForm" name="search" action="products" id="search">
+				<div class="input-group">
+				<input type="text" class="form-control input_search" name="keyword" value="" placeholder="Поиск в каталоге">
+				<div class="input-group-btn">
+				<button type="submit" class="btn btn-primary">Найти</button>
+				</div>
+				</div>
+			</form>
+         
+         <div class="headContacts">
+				<i class="i-phone-squared"></i><i>+7(727)</i> 349-51-66<br />
+				<small>Рабочие часы операторов: Пн-Пт с 09:00 до 20:00</small>
+			</div>
+
+			
+		</div>
+	</header>
+	<div class="clearfix visible-xs"></div>
+  </div>
+ 
+	<div class="sale-top" style="padding:20px 10px;">
+  <div class="container" style="background:#fff;border-radius:10px;padding:10px;text-align:center;font-size:18px;">
+   <!--<h2>ВНИМАНИЕ ВНИМАНИЕ ВНИМАНИЕ</h2>
+   <h1><b>ЛИКВИДАЦИЯ ТОВАРА ПЕРЕД ЗАКРЫТИЕМ МАГАЗИНА!</b></h1>
+   <h3><b>последний день распродажи</b></h3>
+   <h1>СКИДКИ ДО 90%</h1>
+   Мы сообщаем, что вынуждены ликвидировать остатки товара, перед закрытием нашего магазина элитной брендовой парфюмерии, в связи с прекращением поставок и повышением цен от производителей.
+   <br/>Сегодня - последний день РАСПРОДАЖИ парфюмерии ниже себестоимости.
+
+   <h3 style="font-weight:300;"><i>Любой флакон всего за <b>1395 РУБЛЕЙ</b>!</i></h3>
+Помогите нам быстрей распродать товар! -->
+   
+   <h1 style="font-size:48px;">1 + 1 = 3</h1>
+   <h3>Купи любые два флакона духов и получи на свой выбор ТРЕТИЙ БЕСПЛАТНО!</h3>
+  </div>
+ </div>
+<div class="container wrapper">
+ 	<div class="row">
+     <!-- <aside class="col-md-6"><h3 style='margin:0'><i class="i-ferry"></i>Каталог предложений</h3>
+
+	<ul id="nav" ul-level='1' class='top_ul'>
+			<li class='level_1 active'>
+	   <a href="catalog/kupit-zhenskie-duhi" data-category="397">Женские духи</a>
+	   
+	</li>
+				<li class='level_1 '>
+	   <a href="catalog/kupit-muzhskie-duhi" data-category="512">Мужские духи</a>
+	   
+	</li>
+			</ul>
+
+
+</aside> -->
+ 
+	<section class="col-md-18" style="width:100%">
+<ol class="breadcrumb patchLine">
+	<li><a href="./">Главная</a></li>
+			<li><a href="catalog/kupit-zhenskie-duhi" data-category="397">Женские духи</a></li>		<li>Paloma Picasso</li>	</ol>
+<div class="heading"><h1>
+	Женские духи Paloma Picasso 
+	</h1></div>
+
+		
+<!--Каталог товаров-->
+
+		<div class='well well-sm list-inline brandProductsView'>
+		<a href="catalog/kupit-zhenskie-duhi" >Все бренды</a>
+				<a  data-brand="54" href="catalog/kupit-zhenskie-duhi/armand_basi">Armand Basi</a>
+				<a  data-brand="33" href="catalog/kupit-zhenskie-duhi/armani">Armani</a>
+				<a  data-brand="58" href="catalog/kupit-zhenskie-duhi/britney_spears">Britney Spears</a>
+				<a  data-brand="52" href="catalog/kupit-zhenskie-duhi/burberry">Burberry</a>
+				<a  data-brand="14" href="catalog/kupit-zhenskie-duhi/bvlgari">Bvlgari</a>
+				<a  data-brand="112" href="catalog/kupit-zhenskie-duhi/by-kilian">By Kilian</a>
+				<a  data-brand="31" href="catalog/kupit-zhenskie-duhi/cacharel">Cacharel</a>
+				<a  data-brand="12" href="catalog/kupit-zhenskie-duhi/calvin_klein">Calvin Klein</a>
+				<a  data-brand="9" href="catalog/kupit-zhenskie-duhi/carolina_herrera">Carolina Herrera</a>
+				<a  data-brand="18" href="catalog/kupit-zhenskie-duhi/chanel">Chanel</a>
+				<a  data-brand="45" href="catalog/kupit-zhenskie-duhi/chloe">Chloe</a>
+				<a  data-brand="19" href="catalog/kupit-zhenskie-duhi/christian_dior">Christian Dior</a>
+				<a  data-brand="79" href="catalog/kupit-zhenskie-duhi/christina_aguilera">Christina Aguilera</a>
+				<a  data-brand="28" href="catalog/kupit-zhenskie-duhi/dolce__gabbana">Dolce &amp; Gabbana</a>
+				<a  data-brand="47" href="catalog/kupit-zhenskie-duhi/donna_karan">Donna Karan</a>
+				<a  data-brand="74" href="catalog/kupit-zhenskie-duhi/dupont">Dupont</a>
+				<a  data-brand="90" href="catalog/kupit-zhenskie-duhi/elizabeth_arden">Elizabeth Arden</a>
+				<a  data-brand="11" href="catalog/kupit-zhenskie-duhi/escentric_molecules">Escentric Molecules</a>
+				<a  data-brand="111" href="catalog/kupit-zhenskie-duhi/ex-nihilo">Ex Nihilo</a>
+				<a  data-brand="26" href="catalog/kupit-zhenskie-duhi/givenchy">Givenchy</a>
+				<a  data-brand="17" href="catalog/kupit-zhenskie-duhi/gucci">Gucci</a>
+				<a  data-brand="15" href="catalog/kupit-zhenskie-duhi/guerlain">Guerlain</a>
+				<a  data-brand="66" href="catalog/kupit-zhenskie-duhi/guy_laroche">Guy Laroche</a>
+				<a  data-brand="32" href="catalog/kupit-zhenskie-duhi/hugo_boss">Hugo Boss</a>
+				<a  data-brand="44" href="catalog/kupit-zhenskie-duhi/kenzo">Kenzo</a>
+				<a  data-brand="16" href="catalog/kupit-zhenskie-duhi/lacoste">Lacoste</a>
+				<a  data-brand="4" href="catalog/kupit-zhenskie-duhi/lancome">Lancome</a>
+				<a  data-brand="24" href="catalog/kupit-zhenskie-duhi/lanvin">Lanvin</a>
+				<a  data-brand="110" href="catalog/kupit-zhenskie-duhi/montale">Montale</a>
+				<a  data-brand="41" href="catalog/kupit-zhenskie-duhi/moschino">Moschino</a>
+				<a  data-brand="93" href="catalog/kupit-zhenskie-duhi/naomi_campbell">Naomi Campbell</a>
+				<a  data-brand="98" href="catalog/kupit-zhenskie-duhi/narciso_rodriguez">Narciso Rodriguez</a>
+				<a  data-brand="23" href="catalog/kupit-zhenskie-duhi/nina_ricci">Nina Ricci</a>
+				<a  data-brand="2" href="catalog/kupit-zhenskie-duhi/paco_rabanne">Paco Rabanne</a>
+				<a class="active" data-brand="106" href="catalog/kupit-zhenskie-duhi/paloma-picasso">Paloma Picasso</a>
+				<a  data-brand="72" href="catalog/kupit-zhenskie-duhi/roberto_cavalli">Roberto Cavalli</a>
+				<a  data-brand="39" href="catalog/kupit-zhenskie-duhi/sergio_tacchini">Sergio Tacchini</a>
+				<a  data-brand="8" href="catalog/kupit-zhenskie-duhi/thierry_mugler">Thierry Mugler</a>
+				<a  data-brand="38" href="catalog/kupit-zhenskie-duhi/valentino">Valentino</a>
+				<a  data-brand="5" href="catalog/kupit-zhenskie-duhi/versace">Versace</a>
+				<a  data-brand="3" href="catalog/kupit-zhenskie-duhi/yves_saint_laurent">Yves Saint Laurent</a>
+			</div>
+			<div class='col-md-24 well well-sm paginationProductsView'>	</div>
+	<div class="clearfix"></div>
+
+	<ul class="row list-inline itemsList">
+				<li class="col-lg-6 col-md-8 col-xs-24"><div class="product"><div class="productLabels">
+<p><i class="i-tag-1"></i></p></div>
+
+
+
+<div class="image">
+<a href="products/paloma-picasso-30-ml" title='Просмотреть предложение Paloma Picasso 30 мл'><img src="http://store-aromat.kz/files/products/perfume-para-mujer-paloma-picasso-100-ml-34-oz-original-13300-mco19104876_3664-f.250x250.jpg?c8d093b24e0e7476935c30cef147079b" alt="Paloma Picasso 30 мл"/></a>
+</div>
+<h3><a data-product="6114" href="products/paloma-picasso-30-ml">Paloma Picasso 30 мл</a></h3>
+
+<div class="caption">
+
+			<form class="b1c-good variants" action="/cart">
+
+			<p class='b1c-name' style="display:none;">Paloma Picasso 30 мл</p>
+							<div class="price">
+					<input class='amount' type="text" name="amount" value="1" maxlength="4"> <small>x</small>
+					<span>7 500</span> <i>тг.</i>
+
+											<div class='tooltip-show badge oldPrice' data-toggle="tooltip" title='Старая цена'>
+						<strike>24 000</strike><br>
+						<small>Скидка 69%</small>
+					</div>
+									</div>
+
+				<select name="variant" style='display:none;'>
+								<option value="6124" compare_price="24 000" price="7 500"></option>
+								</select>
+
+				<input type="submit" class="btn btn-primary" value="Купить" data-result-text="Еще купить"/>
+				
+			
+			<div class="clearfix"></div>
+		</form>
+	
+	
+
+<div class="clearfix"></div>
+</div>
+</div></li>
+			</ul>
+
+
+	
+
+
+			<hr>
+		<p>Вы можете купить Женские духи Paloma Picasso недорого и по выгодной цене в интернет магазине 'Интернет-магазин недорогой парфюмерии'. В магазине представлены Женские духи Paloma Picasso с описаниями, а также подробные технические характеристики, фотографии и отзывы посетителей. Мы предлагаем Женские духи Paloma Picasso ведущих мировых брендов с гарантией и доставкой.</p>
+	
+
+<div class='col-md-24 well well-sm paginationProductsView'>	</div>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+   Height = '';
+   maxHeight = 0;
+   $(".product").each(function(){
+     if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+     Height = maxHeight;
+   });
+   $(".product").height(Height);
+});
+</script>
+
+
+</section>
+		
+		
+	</div>
+
+	<center>
+		<div class='hidden-xs'><hr><img class='img-responsive fade-animation-fromblack' src="design/Flavor24_mobile/images/images_theme/moneyBlocks.png" alt="" /></div>
+					
+							<hr>
+				<ul class='list-inline brandList'>
+				<h2>Торговые марки каталога</h2>
+								<li class="fade-animation-fromblack">
+							<a href="brands/agent_provocateur">Agent Provocateur</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/angel_schlesser">Angel Schlesser</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/antonio_banderas">Antonio Banderas</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/armand_basi">Armand Basi</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/armani">Armani</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/azzaro">Azzaro</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/badgley_mischka">Badgley Mischka</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/baldessarini">Baldessarini</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/baldinini">Baldinini</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/beyonce">Beyonce</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/britney_spears">Britney Spears</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/bruno_banani">Bruno Banani</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/burberry">Burberry</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/bvlgari">Bvlgari</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/by-kilian">By Kilian</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/cacharel">Cacharel</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/calvin_klein">Calvin Klein</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/carolina_herrera">Carolina Herrera</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/cartier">Cartier</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/celine">Celine</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/cerruti">Cerruti</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/chanel">Chanel</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/chloe">Chloe</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/chopard">Chopard</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/christian_dior">Christian Dior</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/christina_aguilera">Christina Aguilera</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/clinique">Clinique</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/david_beckham">David Beckham</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/davidoff">Davidoff</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/diesel">Diesel</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/dolce__gabbana">Dolce &amp; Gabbana</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/donna_karan">Donna Karan</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/dsquared2">Dsquared2</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/dunhill">Dunhill</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/dupont">Dupont</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/eisenberg-">Eisenberg </a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/elie_saab">Elie Saab</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/elizabeth_arden">Elizabeth Arden</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/escada">Escada</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/escentric_molecules">Escentric Molecules</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/estee_lauder">Estee Lauder</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/ex-nihilo">Ex Nihilo</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/fendi">Fendi</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/gian_marco_venturi">Gian Marco Venturi</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/gianfranco_ferre">Gianfranco Ferre</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/givenchy">Givenchy</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/gucci">Gucci</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/guerlain">Guerlain</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/guess">Guess</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/guy_laroche">Guy Laroche</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/hermes">Hermes</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/hugo_boss">Hugo Boss</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/issey_miyake">Issey Miyake</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/james_bond">James Bond</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/jean_paul_gaultier">Jean Paul Gaultier</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/jil_sander">Jil Sander</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/jimmy_choo">Jimmy Choo</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/john-galliano">John Galliano</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/joop">Joop</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/kenzo">Kenzo</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/kilian">Kilian</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/lacoste">Lacoste</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/lady_gaga">Lady Gaga</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/lalique">Lalique</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/lancome">Lancome</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/lanvin">Lanvin</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/loewe-">Loewe </a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/lolita-lempicka">Lolita Lempicka</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/madonna">Madonna</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/marc_jacobs">Marc Jacobs</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/masaki-matsushima">Masaki Matsushima</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/max_mara">Max Mara</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/mexx">Mexx</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/michael_kors">Michael Kors</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/mont_blanc">Mont Blanc</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/montale">Montale</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/moschino">Moschino</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/naomi_campbell">Naomi Campbell</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/narciso_rodriguez">Narciso Rodriguez</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/nina_ricci">Nina Ricci</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/paco_rabanne">Paco Rabanne</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/paloma-picasso">Paloma Picasso</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/prada">Prada</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/remy_latour">Remy Latour</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/rihanna">Rihanna</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/roberto_cavalli">Roberto Cavalli</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/salvador_dali">Salvador Dali</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/salvatore_ferragamo">Salvatore Ferragamo</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/sergio_tacchini">Sergio Tacchini</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/shakira">Shakira</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/shiseido">Shiseido</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/sonia_rykiel">Sonia Rykiel</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/thierry_mugler">Thierry Mugler</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/tom_ford">Tom Ford</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/tommy_hilfiger">Tommy Hilfiger</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/trussardi">Trussardi</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/valentino">Valentino</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/van_cleef__arpels">Van Cleef &amp; Arpels</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/versace">Versace</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/victor_rolf">Victor Rolf</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/victorias-secret">Victoria`s Secret</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/viktor--rolf-">Viktor &amp; Rolf </a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/yohji_yamamoto">Yohji Yamamoto</a>				</li>
+								<li class="fade-animation-fromblack">
+							<a href="brands/yves_saint_laurent">Yves Saint Laurent</a>				</li>
+								</ul>
+						</center>
+</div>
+
+<footer>
+<div class="container">
+
+	<div class="col-md-5">
+		<h2><span><i class="i-check-2"></i> Дополнительная</span> информация</h2>
+		<ul class='inlineMenu'>
+		<!--<li><a href="/catalog/kupit-zhenskie-duhi/paloma-picasso?theme=Flavor24_mobile"><i class="i-right-dir"></i> Полная версия</a></li>-->
+		</ul>
+	</div>
+
+	<div class="col-md-7 col-md-offset-1">
+		<!--<h2><span><i class="i-info-1"></i> Дополнительная</span> информация</h2>
+		<ul class='inlineMenu'>
+		<li><a href=""><i class="i-right-dir"></i> Для постоянных покупателей</a></li>
+		<li><a href=""><i class="i-right-dir"></i> Гарантии</a></li>
+		<li><a href=""><i class="i-right-dir"></i> Возврат товара</a></li>
+		<li><a href=""><i class="i-right-dir"></i> Наши партнеры</a></li>
+		</ul>-->
+	</div>
+
+	<div class="col-md-10 col-md-offset-1">
+		<h2><span><i class="i-clipboard"></i> Контактная</span> информация</h2>
+		<ul class='inlineMenu'>
+		<li><b>Рабочие часы:</b> Пн-Пт: 09:00-20:00, Вс: выходной</li>
+		<li><b>Телефоны: </b>+7 (727) 349-51-66</li>
+         <li><b>ООО "ПАРФЮМ-ПРЕСТИЖ"</b></li>
+         <li><b>ОГРН</b> 1047796975995</li>
+         
+         <li><b>Адрес: </b> Ленинский проспект 4с1а</li>
+		</ul>
+	</div>
+	<div class="clearfix"></div>
+	<hr>
+
+	<div class="col-xs-24 col-md-19">
+		<p>Интернет-магазин недорогой парфюмерии © 2010 - 2017<br />
+		Купить парфюмерию недорого.</p><br />
+		<small>
+		<p style='color:#A5A5A5'>Данный информационный ресурс не является публичной офертой. Наличие и стоимость товаров уточняйте по телефону. Производители оставляют за собой право изменять технические характеристики и внешний вид товаров без предварительного уведомления.</p>
+		</small>
+	</div>
+
+	<div class="col-xs-24 col-md-5">
+
+		<p class="counters">
+		</p>
+
+	</div>
+<script type="text/javascript" src="js/ctrlnavigate.js"></script>
+<script src="design/Flavor24_mobile/js/jquery-ui.min.js"></script>
+<script src="design/Flavor24_mobile/js/ajax_cart.js"></script>
+<script src="js/baloon/js/baloon.js" type="text/javascript"></script>
+<link   href="js/baloon/css/baloon.css" rel="stylesheet" type="text/css" />
+<script src="js/autocomplete/jquery.autocomplete-min.js" type="text/javascript"></script>
+<link href="design/Flavor24_mobile/fontello/css/fontello.css" rel="stylesheet"/>
+<div class="scrollUp"><i class="i-angle-double-up"></i></div>
+
+
+
+
+<script type="text/javascript">
+	$('.collapse').collapse()
+	$('.tooltip-show').tooltip()
+	$('.popover-show').popover({
+	html: true,
+	trigger: 'focus',
+	delay: { show: 100, hide: 100 }
+	})
+
+	$(function(){
+	  $('.scrollUp').liScrollToTop();
+	});
+ 
+ 
+ (function() {
+    function c(e) {
+        var d = RegExp("[?&]" + e + "=([^&]*)").exec(window.location.search);
+        return d && decodeURIComponent(d[1].replace(/\+/g, " "))
+    }
+
+    function a(f, g) {
+        var e = new Date(new Date().getTime() + 1000 * 3600 * 24 * 45);
+        document.cookie = f + "=" + g + "; path=/; expires=" + e.toUTCString()
+    }
+
+    function b() {
+        if (window.location.href) {
+            var d = c("utm_source");
+            var e = c("SAuid");
+         	
+         
+            if (d != null && d.length) {
+                
+                if(d != "SalesDoubler") {
+            		a("aff_sub", "")
+                	a("aff_id", "")
+            	}
+             
+             	a("utm_source", d)
+            }
+            if (e != null && e.length) {
+                a("SAuid", e)
+            }
+         	else {
+            	b2();
+            }
+        }
+    }
+   
+  
+  function b2() {
+        if (window.location.href) {
+            var d = c("utm_source");
+            var e = c("aff_sub");
+         	var g = c("aff_id");
+            if (d != null && d.length) {
+                a("utm_source", d)
+            }
+            if (e != null && e.length) {
+                a("aff_sub", e)
+            }
+         	if (g != null && g.length) {
+                a("aff_id", g)
+            }
+        }
+    }
+     b();
+  
+})();
+ 
+ 
+ 
+</script>
+ <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37571270 = new Ya.Metrika({ id:37571270, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/37571270" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+ 
+ <script type="text/javascript">
+(function(d,w) {
+	var n=d.getElementsByTagName("script")[0],
+	s=d.createElement("script"),
+	loc=String(d.location),
+	f=function(){n.parentNode.insertBefore(s, n);};
+	s.type="text/javascript";
+	s.async=true;
+	s.src=(loc.substr(0,8)=="https://"?"https":"http")+"://c.sellaction.net/trck.php?shop=1935&offer=&rnd="+Math.floor(Math.random()*999);
+	if(window.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded", f, false);}
+	else{f();}
+})(document,window);
+</script>
+<script src="http://c.sellaction.net/web_tracking.js"></script>
+ 
+ <script>
+(function (js) {
+var scr = document.createElement('script');
+scr.setAttribute("src", js + "?ts=" + (new Date().getTime()));
+scr.setAttribute("async", true);
+document.getElementsByTagName("head")[0].appendChild(scr);
+}("//www.dmpcloud.net/spx/aromat-discount.ru/spx.js"));
+</script>
+ 
+ <script type="text/javascript">
+(function(d,w) {
+    var paramName = "safid";
+    var uid = c(paramName);
+    function c(e) {
+        var x = RegExp("[?&]" + e + "=([^&]*)").exec(w.location.search);
+        return x && decodeURIComponent(x[1].replace(/\+/g, " "))
+    }
+    if (uid) {
+        s=d.createElement("script"),
+        s.type="text/javascript";
+        s.async=true;
+        s.src=(w.location.protocol=="https:"?"https":"http")+"://c.sellaction.net/fnl/"+uid;
+        d.body.appendChild(s);
+    }
+})(document,window);
+</script>
+        
+
+ 
+
+</body>
+</html>
